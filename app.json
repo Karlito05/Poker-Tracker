@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "Poker Tracker",
+    "slug": "Poker-Tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/ic_launcher.png",
+    "scheme": "pokertracker",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#4385FF",
+        "foregroundImage": "./assets/images/ic_launcher.svg",
+        "monochromeImage": "./assets/images/ic_launcher.svg"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.karlito05.poekertracker"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/ic_launcher.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/ic_launcher.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b873399d-9ade-425a-a0a1-c73b05aee321"
+      }
+    },
+    "owner": "karlito05"
+  }
+}
